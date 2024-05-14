@@ -4,6 +4,46 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo img {
+    width: 180px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vmax;
+
+}
+
+.social-icons{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.links {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 25px;
+    padding: 7px;
+    text-align: center;
+
+}
+
+
+
 .soulmate-section {
     display: flex;
     justify-content: space-around;
@@ -18,7 +58,10 @@ body {
 }
 
 .section-img img {
-    width: 400px;
+    width: 100%;
+}
+.section-img  {
+    width: 300px;
 }
 
 /* second-section */
