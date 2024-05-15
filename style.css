@@ -127,7 +127,7 @@ footer {
 
 /* second-header */
 
-/* header {
+.header-two {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -171,4 +171,4 @@ footer {
 
     }
 
-} */
+}
