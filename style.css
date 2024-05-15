@@ -2,6 +2,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 /* header */
@@ -17,7 +18,7 @@ header {
     width: 180px;
 }
 
-ul {
+.nav-link ul {
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -115,4 +116,59 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 
+}
+
+
+
+
+
+
+
+
+/* second-header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(211, 211, 77);
+}
+
+
+.menu-bar {
+    display: none;
+    position: fixed;
+    right: 10px;
+
+}
+
+.navbar ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .menu-bar {
+        display: block;
+    }
+
+    .navbar ul {
+        display: block;
+        position: absolute;
+        right: 10px;
+        background-color:rgb(211, 211, 77) ;
+        top: 40px;
+        height: 300px;
+        line-height: 50px;
+        width: 200px;
+        text-align: center;
+        
+    }
+    
 }
