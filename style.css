@@ -18,7 +18,7 @@ header {
     width: 180px;
 }
 
-.ul {
+ul {
     padding: 0;
     list-style-type: none;
     display: flex;
